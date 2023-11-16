@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+@font-face {
+    src: url("facon.bold-italic.ttf");
+    font-family: futlbol;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://media1.giphy.com/media/H75Uk3F2X1PATByXrk/giphy.gif?cid=ecf05e47yqaslkxvpm1a79hltvmmj4bc0ec7gyrfuyot0qpr&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+    background-size: cover;
+
+    height: 100vh;
+}
+
+.contador{
+    background: linear-gradient(black, orangered);
+    color: #F94F6D;
+    padding: 15px 15px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    
+}
+
+h3{
+    color: black;
+    margin-bottom: 0px;
+    font-family: "futlbol";
+}
+
+.peque{
+    padding: 0 8px;
+   display: flex;
+   justify-content: center;
+   
+    
+}
+
+.sumar{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border: 1px solid #9AABD8;
+    padding: 3px;
+    margin: 0px 3px;
+    border-radius: 5px;
+    color: #9AABD8;
+    background: #0C4A6E;
+
+    
+}
